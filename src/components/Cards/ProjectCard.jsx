@@ -34,7 +34,7 @@ const ProjectCard = ({
             ">
                 <div className="flex gap-2">
                     {tools.length > 0 && tools.map((tool) => (
-                        <p key={tool} className="text-sm uppercase font-bold text-violet-400">
+                        <p key={tool} className="text-xs uppercase font-bold text-violet-400">
                             {tool} <span className="text-neutral-50">/</span>
                         </p>
                     ))}

@@ -9,7 +9,7 @@ const Hero = () => {
                 <p className="text-center md:text-left text-sm text-violet-400 font-bold">Desarrollador FullStack</p>
             </div>
 
-            <p className="text-neutral-400 text-wrap text- font-normal text-center md:text-left text-sm">Soy un apasionado desarrollador FullStack con residencia en Formosa, Argentina. Mi compromiso con la excelencia tecnológica se traduce en la creación de soluciones informáticas que no solo satisfacen las necesidades, sino que también generan un impacto positivo en la marca. Estoy listo para ayudarte a expandir tu presencia en el mercado tecnológico.</p>
+            <p className="text-neutral-400 text-wrap  font-semibold text-center md:text-left text-sm">Soy un apasionado desarrollador FullStack con residencia en Formosa, Argentina. Mi compromiso con la excelencia tecnológica se traduce en la creación de soluciones informáticas que no solo satisfacen las necesidades, sino que también generan un impacto positivo en la marca. Estoy listo para ayudarte a expandir tu presencia en el mercado tecnológico.</p>
 
             <SocialBadget />
         </div>
