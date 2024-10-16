@@ -1,4 +1,4 @@
-const { addDynamicIconSelectors } = ('@iconify/tailwind')
+const { addDynamicIconSelectors } = require('@iconify/tailwind')
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -12,9 +12,11 @@ export default {
         montserrat: ["Montserrat", "sans-serif"]
       },
       colors: {
+        // Puedes agregar más colores personalizados aquí si los necesitas
       }
     },
   },
-  plugins: [addDynamicIconSelectors()],
+  plugins: [
+    addDynamicIconSelectors() // Agrega el plugin de Iconify
+  ],
 }
-
