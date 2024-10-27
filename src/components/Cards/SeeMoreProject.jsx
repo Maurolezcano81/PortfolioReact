@@ -38,7 +38,7 @@ const SeeMoreProject = ({
             <div className="overflow-hidden">
               <img
                 src={project?.imgs && project?.imgs.length > 0 ? project?.imgs[0].url : ""}
-                className="w-full h-auto aspect-video group-hover:scale-105 transition-transform duration-300"
+                className="w-full h-auto aspect-video object-cover group-hover:scale-105 transition-transform duration-300"
                 alt={!project?.imgs || project?.imgs.length < 1 ? project?.title : ""}
               />
             </div>
@@ -81,7 +81,7 @@ const SeeMoreProject = ({
           </div>
         )}
         <div>
-          <p className="text-xs text-neutral-400">{project?.description}</p>
+          <p className="text-xs text-neutral-400">{project?.description_ampliated}</p>
         </div>
       </div>
 

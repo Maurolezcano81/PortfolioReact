@@ -52,11 +52,11 @@ const ModalImgs = ({
 
                 {project.imgs[indexToView] && project.imgs[indexToView].type === 'img' ? (
                     <img
-                        className="rounded-xl aspect-video min-w-full object-fill shadow-sm shadow-violet-400 "
+                        className="rounded-xl aspect-video min-w-full object-cover shadow-sm shadow-violet-400 "
                         src={project.imgs[indexToView].url} alt={project.imgs[indexToView].title} />
                 ) : (
                     <video
-                        className=" aspect-video min-w-full object-fill rounded-xl shadow-sm shadow-violet-400 "
+                        className=" aspect-video min-w-full object-cover rounded-xl shadow-sm shadow-violet-400 "
                         src={project.imgs[indexToView].url} alt={project.imgs[indexToView].title}
                         controls
                     />

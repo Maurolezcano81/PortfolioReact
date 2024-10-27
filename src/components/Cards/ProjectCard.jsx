@@ -36,30 +36,33 @@ const ProjectCard = ({
                         </div>
 
                         <h4 className="text-md font-bold text-neutral-50">{project?.title}</h4>
-                        <p className="text-xs text-neutral-400">{project?.description}</p>
+                        <p className="text-xs text-neutral-400 ">{project?.description}</p>
                     </div>
 
-                    <div className="flex items-center gap-2 group">
+                    <div className="flex items-center gap-2 group md:justify-between">
 
-                        {project?.links && project.links.map((link) => (
-                            link.type === 'website' ? (
-                                <div className="p-1 bg-neutral-950 bg-opacity-50 rounded-xl ">
-                                    <Website
-                                        url={link.url}
-                                    />
-                                </div>
+                        <div className="flex gap-2 items-center">
+                            {project?.links && project.links.map((link) => (
+                                link.type === 'website' ? (
+                                    <div className="">
+                                        <Website
+                                            url={link.url}
+                                        />
+                                    </div>
 
-                            ) : (
-                                <div className="p-1 bg-neutral-950 bg-opacity-50 rounded-xl ">
-                                    <Github
-                                        url={link.url}
-                                    />
-                                </div>
+                                ) : (
+                                    <div className="">
+                                        <Github
+                                            url={link.url}
+                                        />
+                                    </div>
 
-                            )
-                        ))}
+                                )
+                            ))}
+                        </div>
 
-                        <button className="flex min-h-[100%] gap-2 items-center text-neutral-400 group-hover:text-neutral-50 transition-colors ease-linear duration-100 bg-neutral-950 bg-opacity-50 py-1 px-2 rounded-tl-md  rounded-br-xl text-sm" onClick={handleSeeMoreOpen}>
+
+                        <button className="flex min-h-[100%] gap-2 items-center text-neutral-400 group-hover:text-neutral-50 transition-colors ease-linear duration-100 bg-neutral-400 bg-opacity-10  px-2 rounded-tl-md  rounded-br-xl text-sm" onClick={handleSeeMoreOpen}>
                             Ver más
                             <RightArrow />
                         </button>

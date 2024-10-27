@@ -27,10 +27,10 @@ function App() {
 
 
   return (
-    <div className='flex justify-center items-center align-middle min-w-full min-h-screen text-neutral-50 bg-neutral-900 font-montserrat'>
+    <div className='flex justify-center items-center align-middle min-w-full min-h-screen tracking-widest text-neutral-50 bg-neutral-900 font-montserrat'>
       <NavProvider>
 
-        <div className={` flex flex-col md:flex-row justify-around w-[70%] ${coordsY > 0 ? 'pt-12' : 'pt-0'}`}>
+        <div className={` flex flex-col md:flex-row justify-around w-[90%] md:w-[70%]  ${coordsY > 0 ? 'pt-12' : 'pt-0'}`}>
           <Hero
           />
 
@@ -66,9 +66,6 @@ function App() {
 
       </NavProvider>
 
-      <button className='fixed right-0 bottom-0 '>
-        ModoClaro
-      </button>
     </div>
   )
 }

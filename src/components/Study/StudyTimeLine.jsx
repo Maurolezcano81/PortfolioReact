@@ -33,7 +33,7 @@ const StudyTimeLine = ({
 
                 {link.length > 0 && (
 
-                    <div className="p-1 bg-neutral-950 bg-opacity-50 rounded-xl ">
+                    <div className="">
                         <Validate
                             url={link}
                         />
