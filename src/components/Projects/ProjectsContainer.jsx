@@ -55,47 +55,47 @@ const ProjectsContainer = ({
                         imgs: [
                             {
                                 title: "Employes",
-                                url: "/public/employes/employeslogo.png",
+                                url: "/employes/employeslogo.png",
                                 type: 'img'
                             },
                             {
                                 title: "Video promocional",
-                                url: "/public/employes/employes.mp4",
+                                url: "/employes/employes.mp4",
                                 type: 'video'
                             },
                             {
                                 title: "Creación de Personal",
-                                url: "/public/employes/createPersonal.png",
+                                url: "/employes/createPersonal.png",
                                 type: 'img'
                             },
                             {
                                 title: "Gestión general de los departamentos",
-                                url: "/public/employes/Department.png",
+                                url: "/employes/Department.png",
                                 type: 'img'
                             },
                             {
                                 title: "Gestión individual de los departamentos",
-                                url: "/public/employes/departmenView.png",
+                                url: "/employes/departmenView.png",
                                 type: 'img'
                             },
                             {
                                 title: "Solicitudes de licencia",
-                                url: "/public/employes/licensePersonal.png",
+                                url: "/employes/licensePersonal.png",
                                 type: 'img'
                             },
                             {
                                 title: "Respuestas de licencias",
-                                url: "/public/employes/answerLicense.png",
+                                url: "/employes/answerLicense.png",
                                 type: 'img'
                             },
                             {
                                 title: "Encuestas de rendimiento",
-                                url: "/public/employes/createPerformance.png",
+                                url: "/employes/createPerformance.png",
                                 type: 'img'
                             },
                             {
                                 title: "Supervisores de desempeño",
-                                url: "/public/employes/answerPerformance.png",
+                                url: "/employes/answerPerformance.png",
                                 type: 'img'
                             },
                         ]
@@ -124,22 +124,22 @@ const ProjectsContainer = ({
                         imgs: [
                             {
                                 title: "Mind Metrics",
-                                url: "/public/MindMetrics/logo.png",
+                                url: "/MindMetrics/logo.png",
                                 type: 'img'
                             },
                             {
                                 title: "Landing Page",
-                                url: "/public/MindMetrics/Home.png",
+                                url: "/MindMetrics/Home.png",
                                 type: 'img'
                             },
                             {
                                 title: "Inicio de Sesión",
-                                url: "/public/MindMetrics/Login.png",
+                                url: "/MindMetrics/Login.png",
                                 type: 'img'
                             },
                             {
                                 title: "Registro",
-                                url: "/public/MindMetrics/register.png",
+                                url: "/MindMetrics/register.png",
                                 type: 'img'
                             },
                         ]
