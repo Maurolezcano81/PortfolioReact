@@ -11,7 +11,8 @@ const Social = () => {
     return (
         <div className='w-full flex justify-center items-center flex-wrap gap-2 md:gap-6 '>
             <div className='w-14 h-14 '>
-                <img className='w-full aspect-square rounded-full object-cover' src="/public/avatar.png" alt="" />
+                <img className='w-full aspect-square rounded-full object-cover' src="/avatar.png" alt="" />
+                <img className='w-full aspect-square rounded-full object-cover' src="/dist/avatar.png" alt="" />
             </div>
 
             <a href='https://github.com/maurolezcano81' target='_blank' className='flex items-center gap-2'>
