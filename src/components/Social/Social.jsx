@@ -48,14 +48,14 @@ const Social = () => {
                 />
             </a>
 
-            <a href='https://x.com/mauro_lezcano81' target='_blank' className='flex items-center gap-2'>
+            <a href='/1_CV_MAURO_LEZCANO.pdf' target='_blank' className='flex items-center gap-2'>
                 <span className='underline text-xs'>CV</span>
 
                 <Download
                     className='fill-neutral-50'
                     height={12}
                     width={12}
-                    url=''
+                    url='/1_CV_MAURO_LEZCANO.pdf'
                 />
             </a>
 
